@@ -13,7 +13,8 @@ library(pROC) # para las curvas ROC
 library(cutpointr) # para calcular tasa FPR
 
 # Cargar set de datos
-nba_players <- read.csv("../nba-players_2.csv", sep = ";")
+nba_players <- read.csv("./nba-players_2.csv", sep = ";") # para windows
+# nba_players <- read.csv("../nba-players_2.csv", sep = ";")
 
 # pasar los datos como un data frame
 nba_players <- as.data.frame(nba_players)
