@@ -1,6 +1,6 @@
 #---------- Construir modelo de prediccion
 log_model <- glm(
-  formula = carrera_mas_de_5_anos ~ juegos_jug,
+  formula = se_queda_5yrs_NBA ~ juegos_jugados,
   data = training_ds,
   family = binomial
 )
